@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/kaveri7/work/kaverisoft_serviceorder/app/controllers'
+let g:netrw_dirhist_2='/home/kaveri7/Dropbox/WorkLog/May2013'
+let g:netrw_dirhist_3='/home/kaveri7/Dropbox/TODO/May2013'
+let g:netrw_dirhist_4='/usr/local/share/zsh/site-functions'
+let g:netrw_dirhist_5='/home/rohit/test_app/photo_app/config'
+let g:netrw_dirhist_6='/home/rohit/.vim'
