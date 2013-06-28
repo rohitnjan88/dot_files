@@ -19,4 +19,5 @@ command -nargs=0 -bar Update if &modified
                           \|    endif
                           \|endif
 nnoremap <silent> <C-S> :<C-u>Update<CR>
+nnoremap <silent> <C-q> :q<CR>
 
