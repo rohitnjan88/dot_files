@@ -1,4 +1,3 @@
-lcd ~/work/ 
 set wildignore+=**/vendor/**
 set lines=999 
 set columns=999 

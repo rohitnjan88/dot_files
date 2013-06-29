@@ -9,8 +9,6 @@ colorscheme desert
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
-" If the current buffer has never been saved, it will have no name,
-" " call the file browser to save it, otherwise just save it.
 command -nargs=0 -bar Update if &modified 
                           \|    if empty(bufname('%'))
                           \|        browse confirm write
@@ -20,4 +18,4 @@ command -nargs=0 -bar Update if &modified
                           \|endif
 nnoremap <silent> <C-S> :<C-u>Update<CR>
 nnoremap <silent> <C-q> :q<CR>
-
+silent !stty -ixon > /dev/null 2>/dev/null
