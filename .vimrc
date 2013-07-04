@@ -5,8 +5,10 @@ set smartindent
 set ts=2
 set sw=2
 set expandtab
+set nocompatible
 colorscheme desert
-execute pathogen#infect()
+call pathogen#helptags()
+call pathogen#incubate()
 syntax on
 filetype plugin indent on
 command -nargs=0 -bar Update if &modified 
