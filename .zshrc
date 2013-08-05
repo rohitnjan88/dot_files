@@ -45,7 +45,6 @@ alias hibernate='sudo pm-hibernate'
 alias restart='sudo reboot'
 alias d='sdcv'
 alias dev1="ssh -t heren@dev1.dispatchtrack.com"
-alias change_caps="xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'"
 
 export PATH=${PATH}:~/android-sdk-linux/tools
 export PATH=${PATH}:~/android-sdk-linux/platform-tools
