@@ -1,0 +1,7 @@
+[alias]
+	stash-unapply = !git stash show -p | git apply -R
+  st = status
+  plr= pull --rebase
+[user]
+	name = rohit
+	email = rohit@mobme.in

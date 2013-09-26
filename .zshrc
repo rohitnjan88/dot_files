@@ -44,8 +44,12 @@ alias off='sudo poweroff'
 alias hibernate='sudo pm-hibernate'
 alias restart='sudo reboot'
 alias d='sdcv'
-alias dev1="ssh -t heren@dev1.dispatchtrack.com"
+alias dev1="ssh -t heren@dev1.dispatchtrack.com 'screen -x'"
 alias sw="xmodmap ~/speedswapper"
+alias smsrvr="cd ~/kaverisoft/kaverisoft_servicemanagerserver/ && bundle exec rails s"
+alias stcl="bundle exec rails c"
+alias stsrvr="bundle exec rails s"
+alias mgrt="bundle exec rake db:migrate"
+alias sc_mgrt="bundle exec rake scoped:migrate"
 
-export PATH=${PATH}:~/android-sdk-linux/tools
-export PATH=${PATH}:~/android-sdk-linux/platform-tools
+
