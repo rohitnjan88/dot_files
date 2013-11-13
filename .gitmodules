@@ -22,3 +22,6 @@
 [submodule ".vim/bundle/AutoTag"]
 	path = .vim/bundle/AutoTag
 	url = git@github.com:vim-scripts/AutoTag.git
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = git@github.com:robbyrussell/oh-my-zsh.git
