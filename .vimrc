@@ -8,7 +8,7 @@ set expandtab
 set nocompatible
 colorscheme desert
 call pathogen#helptags()
-call pathogen#incubate()
+call pathogen#infect()
 syntax on
 filetype plugin indent on
 command -nargs=0 -bar Update if &modified 
