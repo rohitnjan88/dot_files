@@ -20,4 +20,5 @@ command -nargs=0 -bar Update if &modified
                           \|endif
 nnoremap <silent> <C-S> :<C-u>Update<CR>
 nnoremap <silent> <C-q> :q<CR>
+nnoremap <silent> <F3> :Gblame<CR>
 silent !stty -ixon > /dev/null 2>/dev/null
