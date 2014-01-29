@@ -51,5 +51,6 @@ alias stcl="bundle exec rails c"
 alias stsrvr="bundle exec rails s"
 alias mgrt="bundle exec rake db:migrate"
 alias sc_mgrt="bundle exec rake scoped:migrate"
+alias be="bundle exec"
 
 
