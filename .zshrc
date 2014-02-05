@@ -44,13 +44,15 @@ alias off='sudo poweroff'
 alias hibernate='sudo pm-hibernate'
 alias restart='sudo reboot'
 alias d='sdcv'
-alias dev1="ssh -t heren@dev1.dispatchtrack.com 'screen -x'"
 alias sw="xmodmap ~/speedswapper"
-alias smsrvr="cd ~/kaverisoft/kaverisoft_servicemanagerserver/ && bundle exec rails s"
 alias stcl="bundle exec rails c"
 alias stsrvr="bundle exec rails s"
 alias mgrt="bundle exec rake db:migrate"
 alias sc_mgrt="bundle exec rake scoped:migrate"
 alias be="bundle exec"
+alias install="sudo apt-get install "
+alias remove="sudo apt-get remove"
+alias purge_remove="sudo apt-get --purge remove"
+alias srch="sudo apt-cache search"
 
 
