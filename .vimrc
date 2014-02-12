@@ -22,3 +22,4 @@ nnoremap <silent> <C-S> :<C-u>Update<CR>
 nnoremap <silent> <C-q> :q<CR>
 nnoremap <silent> <F3> :Gblame<CR>
 silent !stty -ixon > /dev/null 2>/dev/null
+let g:NERDTreeWinPos = "right"
