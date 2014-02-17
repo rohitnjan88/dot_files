@@ -1,5 +1,3 @@
-ln -s .vimrc ~/
-ln -s .vim ~/
-ln -s .gvimrc ~/
-ln -s .zshrc ~/
 sudo apt-get install exuberant-ctags
+sudo apt-get install tmux
+sudo apt-get install colordiff

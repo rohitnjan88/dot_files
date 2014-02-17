@@ -55,5 +55,11 @@ alias update="sudo apt-get update"
 alias remove="sudo apt-get remove"
 alias purge_remove="sudo apt-get --purge remove"
 alias srch="sudo apt-cache search"
-
-
+svndiff()
+{
+svn diff -r PREV:COMMITTED "${@}" | colordiff
+}
+svnstatus()
+{
+svn diff -r HEAD "${@}" | colordiff
+}
