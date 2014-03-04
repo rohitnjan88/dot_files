@@ -6,6 +6,7 @@ set ts=2
 set sw=2
 set expandtab
 set nocompatible
+set noswapfile
 colorscheme desert
 call pathogen#helptags()
 call pathogen#infect()
