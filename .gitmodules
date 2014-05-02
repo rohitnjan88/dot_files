@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/colorschemes"]
 	path = .vim/bundle/colorschemes
 	url = git@github.com:flazz/vim-colorschemes.git
+[submodule ".vim/bundle/vim-surround"]
+	path = .vim/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
