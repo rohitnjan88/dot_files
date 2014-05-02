@@ -20,6 +20,10 @@ command -nargs=0 -bar Update if &modified
                           \|endif
 nnoremap <silent> <C-S> :<C-u>Update<CR>
 nnoremap <silent> <C-q> :q<CR>
-nnoremap <silent> <F3> :Gblame<CR>
 silent !stty -ixon > /dev/null 2>/dev/null
+nmap <C-S-F> :Ack<space>-a<space>
+nmap <C-S-T> :tabnew<CR>
+nmap <C-S-B> :Gblame<CR>
+nmap <C-S-M> :VCSAnnotate!<CR>
+vnoremap <C-S-F> :Ack<space>-a<space>@*<space>
 let g:NERDTreeWinPos = "right"
