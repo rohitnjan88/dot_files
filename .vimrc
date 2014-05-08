@@ -27,3 +27,5 @@ nmap <C-S-B> :Gblame<CR>
 nmap <C-S-M> :VCSAnnotate!<CR>
 vnoremap <C-S-F> :Ack<space>-a<space>@*<space>
 let g:NERDTreeWinPos = "right"
+set clipboard=unnamedplus
+
