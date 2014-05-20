@@ -28,4 +28,9 @@ nmap <C-S-M> :VCSAnnotate!<CR>
 vnoremap <C-S-F> :Ack<space>-a<space>@*<space>
 let g:NERDTreeWinPos = "right"
 set clipboard=unnamedplus
-
+filetype plugin on
+let g:mta_use_matchparen_group = 1
+let g:mta_filetypes = {
+ \ 'html': 1, 
+ \ 'eruby':1
+ \ }

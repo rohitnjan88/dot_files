@@ -34,3 +34,9 @@
 [submodule ".vim/bundle/vim-surround"]
 	path = .vim/bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule ".vim/bundle/MatchTagAlways"]
+	path = .vim/bundle/MatchTagAlways
+	url = git@github.com:Valloric/MatchTagAlways.git
+[submodule ".vim/bundle/matchit"]
+	path = .vim/bundle/matchit
+	url = git@github.com:tmhedberg/matchit.git
