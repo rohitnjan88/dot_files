@@ -10,6 +10,7 @@ set noswapfile
 call pathogen#helptags()
 call pathogen#infect()
 syntax on
+filetype on
 filetype plugin indent on
 command -nargs=0 -bar Update if &modified 
                           \|    if empty(bufname('%'))
