@@ -1,0 +1,12 @@
+tmux start-server
+tmux new-session -d -s test -n git
+tmux new-window -ttest:1 -n server
+tmux new-window -ttest:2 -n rails-console
+tmux new-window -ttest:3 -n mysql 
+ 
+tmux send-keys -ttest:0 'rls; clear' C-m
+tmux send-keys -ttest:1 'cl' C-m
+tmux send-keys -ttest:2 'mysql -uroot -proot' C-m
+ 
+tmux select-window -ttest:0
+tmux attach-session -d -ttest
