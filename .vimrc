@@ -25,7 +25,7 @@ silent !stty -ixon > /dev/null 2>/dev/null
 nmap <C-S-F> :Ack<space>-a<space>
 nmap <C-S-T> :tabnew<CR>
 nmap <C-S-B> :Gblame<CR>
-nmap <C-S-M> :VCSAnnotate!<CR>
+nmap <C-S-L> :VCSAnnotate!<CR>
 vnoremap <C-S-F> :Ack<space>-a<space>@*<space>
 let g:NERDTreeWinPos = "right"
 set clipboard=unnamedplus
